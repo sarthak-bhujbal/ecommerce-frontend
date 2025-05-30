@@ -1,15 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E-Commerce Frontend</title>
-    <link rel="stylesheet" href="styles/main.css">
-</head>
-<body>
-    <header>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <!-- <header>
         <h1>Welcome to Our Online Store</h1>
+    </header> -->
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Biggest Sale of the Year!</h1>
+          <p>Discover amazing discounts on all your favorite products.</p>
+          <a href="#products" class="btn-cta">Shop Now</a>
+        </div>
+      </section>
+    <header>
+      <div class="logo">
+        <h1>MyShop</h1>
+      </div>
+
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-right">
+        <input
+          type="search"
+          placeholder="Search products..."
+          class="search-bar"
+        />
+
+        <div class="cart-icon">
+          🛒
+          <span class="cart-count">3</span>
+          <!-- example count -->
+        </div>
+
+        <div class="hamburger-menu">
+          &#9776;
+          <!-- hamburger icon -->
+        </div>
+      </div>
     </header>
+
     <script src="scripts/app.js"></script>
-</body>
+  </body>
 </html>
