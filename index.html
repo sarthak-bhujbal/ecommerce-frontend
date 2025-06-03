@@ -7,16 +7,12 @@
     <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
-    <!-- <header>
-        <h1>Welcome to Our Online Store</h1>
-    </header> -->
-      <section class="hero">
-        <div class="hero-content">
-          <h1>Biggest Sale of the Year!</h1>
-          <p>Discover amazing discounts on all your favorite products.</p>
-          <a href="#products" class="btn-cta">Shop Now</a>
-        </div>
-      </section>
+    <!-- Top Announcement Banner -->
+    <header class="top-banner">
+      <h1>Welcome to Our Online Store</h1>
+    </header>
+
+    <!-- Main Header with Logo and Navigation -->
     <header>
       <div class="logo">
         <h1>MyShop</h1>
@@ -25,7 +21,7 @@
       <nav class="nav-menu">
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">Products</a></li>
+          <li><a href="#products">Products</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
@@ -37,19 +33,26 @@
           placeholder="Search products..."
           class="search-bar"
         />
-
         <div class="cart-icon">
-          🛒
-          <span class="cart-count">3</span>
-          <!-- example count -->
+          🛒<span class="cart-count">3</span>
         </div>
-
-        <div class="hamburger-menu">
-          &#9776;
-          <!-- hamburger icon -->
-        </div>
+        <div class="hamburger-menu">&#9776;</div>
       </div>
     </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Biggest Sale of the Year!</h1>
+        <p>Discover amazing discounts on all your favorite products.</p>
+        <a href="#products" class="btn-cta">Shop Now</a>
+      </div>
+    </section>
+
+    <!-- Product Grid -->
+    <section id="products" class="product-grid">
+      <!-- Dynamic Product Cards -->
+    </section>
 
     <script src="scripts/app.js"></script>
   </body>
