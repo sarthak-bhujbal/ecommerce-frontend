@@ -1,0 +1,52 @@
+.auth-container {
+      max-width: 400px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    }
+    #form-toggle button {
+      width: 50%;
+      padding: 10px 0;
+      border: none;
+      background: #eee;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    #form-toggle button.active {
+      background: #007bff;
+      color: white;
+    }
+    form {
+      margin-top: 20px;
+    }
+    form input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+    form button[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background: #007bff;
+      border: none;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    #auth-msg {
+      margin-top: 10px;
+      color: red;
+      min-height: 20px;
+      font-weight: bold;
+    }
+    /* Responsive tweaks */
+    @media (max-width: 500px) {
+      .auth-container {
+        margin: 20px 10px;
+        padding: 15px;
+      }
+    }

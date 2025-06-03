@@ -891,3 +891,36 @@ img {
 .notification.show {
     opacity: 1;
 }
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.auth-buttons .btn {
+  padding: 8px 14px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.auth-buttons .btn:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .auth-buttons {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .auth-buttons .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
